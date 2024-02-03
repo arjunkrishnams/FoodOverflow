@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wraper {
+  width: 85%;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  color: #F7F3E9;
+  font-size: 3rem;
+  font-family: Pacifico;
+  font-weight: 200;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 45%;
+  color: #F05945;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+li {
+  font-size: .8rem;
+}
+
+button {
+  border: none;
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  color: #F05945;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: #F7F3E9;
+  transition: all 0.6s;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+a:hover {
+  color: rgb(3, 3, 82);
+  border-bottom: 1px solid rgb(3, 3, 82);
+}
+
+.modal{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 14rem;
+  text-align: center;
+}
+
+.modal input {
+  height: 2rem;
+  width: 90%;
+}
+
+.modalBtn {
+  width: 80%;
+  background-color: #F05945;
+  color: white;
+  cursor: pointer;
+  transition: all ease .8s;
+}
+
+.modalBtn:hover {
+  background-color: #F05945;
+  
+}
+
+
+header {
+  background-color: #5EAAA8;
+}
+
