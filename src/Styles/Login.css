@@ -80,26 +80,7 @@ img {
 	margin: 0 auto;
 }
 
-.ion {
-	&-logo-apple {
-		font-size: 1.65rem;
-		line-height: inherit;
-		margin-right: 0.5rem;
-		color: var(--color-black);
-	}
-	&-logo-google {
-		font-size: 1.65rem;
-		line-height: inherit;
-		margin-right: 0.5rem;
-		color: var(--color-red);
-	}
-	&-logo-facebook {
-		font-size: 1.65rem;
-		line-height: inherit;
-		margin-right: 0.5rem;
-		color: var(--color-blue);
-	}
-}
+
 
 .text {
 	font-family: inherit;
@@ -135,15 +116,21 @@ img {
 	.wrapper {
 		max-width: 28rem;
 		width: 100%;
+        height: auto;
 		margin: 2rem auto;
 		padding: 2rem 2.5rem;
 		border: none;
 		outline: none;
-		border-radius: 0.25rem;
+		border-radius: 0.5rem;
 		color: var(--color-black);
-		background: #F7F3E9;
+		background: #A3D2CA;
 		box-shadow: var(--shadow-large);
+        flex-direction: column;
 
+    .wrapper .text{
+        align-self: center;
+        color: #1a73e8;
+    }
 		.form {
 			width: 100%;
 			height: auto;

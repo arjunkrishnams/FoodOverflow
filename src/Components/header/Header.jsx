@@ -45,7 +45,10 @@ export const Header = () => {
               <a href="/">Stats</a>
             </li>
             <li>
-              <a href="/">Login</a>
+              <a href="/LoginNGO">NGO Login</a>
+            </li>
+            <li>
+              <a href="/LoginDonor">Donor Login</a>
             </li>
           </ul>
           <div className="btn">

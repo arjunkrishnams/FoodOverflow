@@ -27,28 +27,28 @@ export const Blog = () => {
           <PostBlog
             src={BlogPic1}
             alt="alimento1"
-            title="Quick-start guide to nuts and seeds"
+            title="It's heart-warming to see the people we've helped!"
             profile={ProfilePic}
-            name="fabio"
-            author="Fabio de Andrade  "
+            name="Arjun Krishna"
+            author="Arjun Krishna M S"
           />
 
           <PostBlog
             src={BlogPic2}
             alt="alimento2"
-            title="The top 10 benefits of eating healthy"
+            title="Each plate of food is a plate of hope!"
             profile={ProfilePic}
-            name="Rapha Gama"
-            author="Raphael Gama"
+            name="Sanjay Rajakumar"
+            author="Sanjay Rajakumar"
           />
 
           <PostBlog
             src={BlogPic3}
             alt="alimento3"
-            title="Nutrition: Tips for improving Your health"
+            title="Feeding the hungry is the best feeling in the world!"
             profile={ProfilePic}
             name="MM"
-            author="Marllon Maia"
+            author="G Hitesh Reddy"
           />
 
           {/* <PostBlog

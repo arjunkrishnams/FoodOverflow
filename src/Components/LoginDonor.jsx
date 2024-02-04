@@ -39,7 +39,7 @@ const LoginDonor = () => {
                         <input type="password" name="password" id="password" className="input-field" placeholder="Password"/>
                     </div>
                     <div className="input-control">
-                        <a href="#" className="text text-links">Login as NGO?</a>
+                        <a href="/LoginNGO" className="text text-links">Login as NGO?</a>
                         <button type="submit" className="input-submit">Sign In</button>
                     </div>
                 </form>
