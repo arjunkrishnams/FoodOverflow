@@ -3,6 +3,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #5EAAA8;
 }
 
 .footer {
@@ -10,6 +11,7 @@ footer {
   width: 75%;
 
   justify-content: space-between;
+  
 }
 
 .rigthContent {
