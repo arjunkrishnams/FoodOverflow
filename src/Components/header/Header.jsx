@@ -45,14 +45,14 @@ export const Header = () => {
               <a href="#testimonial" onclick="scroll">Review</a>
             </li>
             <li>
-              <a href="#/NgoSignup">NGO Signup</a>
+              <a href="/NgoSignup">NGO Signup</a>
             </li>
             <li>
-              <a href="#/DonorSignup">Donor Signup</a>
+              <a href="/DonorSignup">Donor Signup</a>
             </li>
           </ul>
           <div className="btn">
-            <button type="text"><a href="#/LoginDonor">Login</a></button>
+            <button type="text"><a href="/LoginDonor">Login</a></button>
             
  
           </div>
