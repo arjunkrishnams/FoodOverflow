@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FoodOverflow/static/css/main.4eff5eac.css",
+    "main.js": "/FoodOverflow/static/js/main.d92f6c87.js",
+    "static/js/592.0803614d.chunk.js": "/FoodOverflow/static/js/592.0803614d.chunk.js",
+    "static/media/FoodImage.png": "/FoodOverflow/static/media/FoodImage.b81ff99cfa3b3ba93171.png",
+    "static/media/comida_2.svg": "/FoodOverflow/static/media/comida_2.8ea0f4f70087cc2fb8796ff190894bc2.svg",
+    "static/media/comida_4.svg": "/FoodOverflow/static/media/comida_4.e0fb4f03e9d56a33b53580b0fa6256d8.svg",
+    "static/media/comida_1.svg": "/FoodOverflow/static/media/comida_1.19b82af4cc11a517b61c8f1b0e9ca259.svg",
+    "static/media/comida_3.svg": "/FoodOverflow/static/media/comida_3.f59c52bd844108a20eea8c882957bf64.svg",
+    "static/media/don2.jpeg": "/FoodOverflow/static/media/don2.23234d370143c99f3f3d.jpeg",
+    "static/media/bloco_services.svg": "/FoodOverflow/static/media/bloco_services.47777e24fd769f9f7df434b9681fde26.svg",
+    "static/media/don3.jpg": "/FoodOverflow/static/media/don3.b84ee5bff9c56a6e8d6b.jpg",
+    "static/media/don1.jpg": "/FoodOverflow/static/media/don1.73bf5b8a605978bc84dc.jpg",
+    "static/media/bloco_final_image.svg": "/FoodOverflow/static/media/bloco_final_image.f832b8d35aae1fc4b85474aaeed8cf3f.svg",
+    "index.html": "/FoodOverflow/index.html",
+    "main.4eff5eac.css.map": "/FoodOverflow/static/css/main.4eff5eac.css.map",
+    "main.d92f6c87.js.map": "/FoodOverflow/static/js/main.d92f6c87.js.map",
+    "592.0803614d.chunk.js.map": "/FoodOverflow/static/js/592.0803614d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eff5eac.css",
+    "static/js/main.d92f6c87.js"
+  ]
+}
