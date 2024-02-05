@@ -5,7 +5,7 @@ import ServPic from '../../assets/bloco_services.svg'
 
 export const BestServices = () => {
     return (
-        <section className="services">
+        <section className="services"  id="about">
             <div className="servicesWrapper">
                 <div className="leftServices">
                     <img src={ServPic} alt='txt' />

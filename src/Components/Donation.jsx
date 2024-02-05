@@ -1,9 +1,14 @@
 import React, { useState, useCallback } from 'react';
 import styled from 'styled-components';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
   display: flex;
   justify-content: center;
+  background-color: #5EAAA8;
+  background-size: cover;
+  // background-image: url(${process.env.PUBLIC_URL}/bg1.jpeg);
+  height: 100vh;
 `;
 
 const Centre = styled.div`
@@ -16,6 +21,7 @@ const Centre = styled.div`
 
 const Title = styled.h1`
   font-size: 40px;
+  color: #F7F3E9;
 `;
 const Inputsmall = styled.div`
     display: flex;
@@ -42,7 +48,8 @@ const Form = styled.form`
 
   button {
     align-self: center;
-    background-color: #5eaaa8;
+    background-color: #F05945;
+    color: #F7F3E9;
     cursor: pointer;
     gap: 30px;
   }
@@ -55,13 +62,18 @@ const Inputs = styled.div`
 `;
 
 const Donation = () => {
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  console.log(location);
+  console.log(location.state.id);
   const [donors, setDonors] = useState([
     {
       name: '',
       serving: '',
       quantity: '',
       expiry: '',
-      Address: '',
+      address: '',
       city: '',
       pincode: '',
       state: '',
@@ -89,7 +101,7 @@ const Donation = () => {
         serving: '',
         quantity: '',
         expiry: '',
-        Address: '',
+        address: '',
         city: '',
         pincode: '',
         state: '',
@@ -102,7 +114,22 @@ const Donation = () => {
   const handleSubmit = useCallback(
     (event) => {
       event.preventDefault();
+
       console.log(donors);
+
+      fetch(`http://192.168.1.23:5000/addDonation/${location.state.id}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({data : donors,id:location.state.id }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data)
+          navigate('/DashboardDonor',{state: {id: location.state.id}})
+        })
+        .catch((error) => console.error('Error:', error));
     },
     [donors]
   );
@@ -139,7 +166,7 @@ const Donation = () => {
                 required
               />
               <input
-                type="text"
+                type="date"
                 name="expiry"
                 placeholder="Expiry"
                 value={temp.expiry}
@@ -153,10 +180,10 @@ const Donation = () => {
           </button>
           <input
             type="text"
-            name="Address"
+            name="address"
             placeholder="Address"
-            value={donors[0]['Address']}
-            onChange={(e) => handleInputChange(0, 'Address', e.target.value)}
+            value={donors[0]['address']}
+            onChange={(e) => handleInputChange(0, 'address', e.target.value)}
             required
           />
           <input
@@ -199,7 +226,7 @@ const Donation = () => {
             onChange={(e) => handleInputChange(0, 'phone', e.target.value)}
             required
           />
-          <button type="submit">Donate</button>
+          <button type="submit" >Donate</button>
         </Form>
       </Centre>
     </Container>

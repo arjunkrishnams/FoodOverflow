@@ -39,39 +39,22 @@ export const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="/">About Us</a>
+              <a href="#about" onclick="scroll">About Us</a>
             </li>
             <li>  
-              <a href="/">Stats</a>
+              <a href="#testimonial" onclick="scroll">Review</a>
             </li>
             <li>
-              <a href="/LoginNGO">NGO Login</a>
+              <a href="/NgoSignup">NGO Signup</a>
             </li>
             <li>
-              <a href="/LoginDonor">Donor Login</a>
+              <a href="/DonorSignup">Donor Signup</a>
             </li>
           </ul>
           <div className="btn">
-            <button type="text" onClick={openModal}>Register</button>
-            <Modal
-              isOpen={modalIsOpen}
-              onAfterOpen={afterOpenModal}
-              onRequestClose={closeModal}
-              style={customStyles}
-              contentLabel="Example Modal"
-            >
-              <div className="modal">
-                <h1>Register your recipe</h1>
-                <label>Your Recipe</label>
-                <input type="text" />
-                <label>Author's name</label>
-                <input type="text" />
-                <button type="text" className='modalBtn' onClick={() => { 
-                  alert('recipe recevied');
-                  closeModal();
-                }}>REGISTER RECIPE</button>
-              </div>
-              </Modal>
+            <button type="text"><a href="/LoginDonor">Login</a></button>
+            
+ 
           </div>
         </nav>
       </div>
