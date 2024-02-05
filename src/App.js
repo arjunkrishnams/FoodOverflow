@@ -12,7 +12,7 @@ import DonorSignup from './Components/DonorSignup';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/FoodOverflow">
       <Routes>
           
           <Route index element={<Container />} />
