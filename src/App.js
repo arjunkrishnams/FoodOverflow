@@ -12,17 +12,17 @@ import DonorSignup from './Components/DonorSignup';
 
 function App() {
   return (
-<Router basename={process.env.PUBLIC_URL}>
+<Router>
       <Routes>
           
           <Route index element={<Container />} />
-          <Route path="LoginNGO" element={<LoginNGO />} />
-          <Route path="LoginDonor" element={<LoginDonor />} />
-          <Route path="NgoSignup" element={<NgoSignup />} />
-          <Route path="DashboardDonor" element={<DashboardDonor />} />
-          <Route path="DashboardNGO" element={<DashboardNGO />} />
-          <Route path="Donation" element={<Donation />} />
-          <Route path="DonorSignup" element={<DonorSignup />} />
+          <Route path="/LoginNGO" element={<LoginNGO />} />
+          <Route path="/LoginDonor" element={<LoginDonor />} />
+          <Route path="/NgoSignup" element={<NgoSignup />} />
+          <Route path="/DashboardDonor" element={<DashboardDonor />} />
+          <Route path="/DashboardNGO" element={<DashboardNGO />} />
+          <Route path="/Donation" element={<Donation />} />
+          <Route path="/DonorSignup" element={<DonorSignup />} />
 
         
       </Routes>
