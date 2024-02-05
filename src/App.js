@@ -1,6 +1,6 @@
 
 import Navbar from './Components/Navbar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import LoginNGO from './Components/LoginNGO';
 import LoginDonor from './Components/LoginDonor';
 import Container from './Components/Container';
@@ -12,7 +12,7 @@ import DonorSignup from './Components/DonorSignup';
 
 function App() {
   return (
-<BrowserRouter basename={process.env.PUBLIC_URL}>
+<Router basename={process.env.PUBLIC_URL}>
       <Routes>
           
           <Route index element={<Container />} />
@@ -26,7 +26,7 @@ function App() {
 
         
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
     
 }
