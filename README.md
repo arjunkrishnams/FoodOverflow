@@ -21,6 +21,7 @@ Donation Dashboard: Allows food donors to list available surplus food items.
 NGO Dashboard: Provides NGOs with a platform to request and manage food donations.
 
 Real-time Updates: Instant notifications for donors, NGOs, and recipients regarding donation status.
+NGOs get realtime email notifications for donations which has been implemented using SMTP.
 
 ## Hosted Links
 
