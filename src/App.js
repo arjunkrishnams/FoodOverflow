@@ -12,7 +12,7 @@ import DonorSignup from './Components/DonorSignup';
 
 function App() {
   return (
-    <BrowserRouter basename="/FoodOverflow">
+<BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
           
           <Route index element={<Container />} />
@@ -23,9 +23,6 @@ function App() {
           <Route path="DashboardNGO" element={<DashboardNGO />} />
           <Route path="Donation" element={<Donation />} />
           <Route path="DonorSignup" element={<DonorSignup />} />
-          <Route path="FoodOverflow" element={<Container />} />
-
-          
 
         
       </Routes>
