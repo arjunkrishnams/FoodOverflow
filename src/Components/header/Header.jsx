@@ -39,12 +39,6 @@ export const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="#about" onclick="scroll">About Us</a>
-            </li>
-            <li>  
-              <a href="#testimonial" onclick="scroll">Review</a>
-            </li>
-            <li>
               <a href="#/NgoSignup">NGO Signup</a>
             </li>
             <li>
@@ -54,7 +48,6 @@ export const Header = () => {
           <div className="btn">
             <button type="text"><a href="#/LoginDonor">Login</a></button>
             
- 
           </div>
         </nav>
       </div>

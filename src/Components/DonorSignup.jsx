@@ -110,8 +110,8 @@ function NgoSignup() {
                     <Title>Donor Sign Up</Title>
                     <Form onSubmit={handleSubmit} >
                         <input type="text" name='name' placeholder="Name" />
-                        <input type="text" name='email' placeholder="Email" />
-                        <input type="text" name='password' placeholder="Password" />
+                        <input type="email" name='email' placeholder="Email" />
+                        <input type="password" name='password' placeholder="Password" />
                         <input type="text" name='confirm' placeholder="Confirm Password" />
                         <input type="text" name='phone' placeholder="Contact Number" />
                         <button type= "submit" >Sign Up</button>

@@ -13,17 +13,11 @@ export const BestServices = () => {
                 </div>
 
                 <div className="rigthServices">
-                    <h2>The best services ready To serve you</h2>
-
-                    <p>Far far away, begind the word mountains, far from the countris Vakalia and Consanantia, there live the bind texts.</p>
-
-                    <p>Separated they live in Bookmarksgrove rigth at the coast of the Semantics, a larg language ocean.</p>
-
-                    <p>A small rier named Duden flow by their place and supplies it with the necessary regelialia.</p>
-
-                    <button>Know More</button>
-
-
+                <h2>Effective Food Waste Management Solutions</h2>
+                <p>Welcome to our dedicated services for efficient food waste management. Our mission is to address the pressing issue of food waste and contribute to a sustainable future.</p>
+                <p>Imagine a world where food waste is minimized and resources are utilized wisely. Our commitment takes you far beyond the mountains, reaching Vakalia and Consanantia, where we strive to eliminate the bind of wasteful practices.</p>
+                <p>At the heart of our efforts lies Bookmarksgrove, right on the coast of Semantics, resembling a vast language ocean. Here, we work towards the responsible disposal and reduction of food waste, creating a positive impact on both the environment and community.</p>
+                <p>Just like the small river named Duden that flows by our place, supplying the necessary regelialia, we aim to be the lifeline in managing food waste. Join us in our journey towards a cleaner, greener world.</p>
                 </div>
             </div>
         </section>

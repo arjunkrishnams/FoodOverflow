@@ -38,7 +38,7 @@ const LoginDonor = () => {
                 <form name="signin" className="form" onSubmit={handleSubmit}>
                     <div className="input-control">
                         
-                        <input type="text" name="email" id="email" className="input-field" placeholder="Email Address"/>
+                        <input type="email" name="email" id="email" className="input-field" placeholder="Email Address"/>
                     </div>
                     <div className="input-control">
                         
