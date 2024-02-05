@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FoodOverflow/static/css/main.4eff5eac.css",
-    "main.js": "/FoodOverflow/static/js/main.c3ba81fd.js",
+    "main.js": "/FoodOverflow/static/js/main.e6737645.js",
     "static/js/592.bf6ca574.chunk.js": "/FoodOverflow/static/js/592.bf6ca574.chunk.js",
     "static/media/FoodImage.png": "/FoodOverflow/static/media/FoodImage.b81ff99cfa3b3ba93171.png",
     "static/media/comida_2.svg": "/FoodOverflow/static/media/comida_2.8ea0f4f70087cc2fb8796ff190894bc2.svg",
@@ -15,11 +15,11 @@
     "static/media/bloco_final_image.svg": "/FoodOverflow/static/media/bloco_final_image.f832b8d35aae1fc4b85474aaeed8cf3f.svg",
     "index.html": "/FoodOverflow/index.html",
     "main.4eff5eac.css.map": "/FoodOverflow/static/css/main.4eff5eac.css.map",
-    "main.c3ba81fd.js.map": "/FoodOverflow/static/js/main.c3ba81fd.js.map",
+    "main.e6737645.js.map": "/FoodOverflow/static/js/main.e6737645.js.map",
     "592.bf6ca574.chunk.js.map": "/FoodOverflow/static/js/592.bf6ca574.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eff5eac.css",
-    "static/js/main.c3ba81fd.js"
+    "static/js/main.e6737645.js"
   ]
 }
