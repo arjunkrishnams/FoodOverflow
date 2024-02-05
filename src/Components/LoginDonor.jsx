@@ -13,7 +13,7 @@ const LoginDonor = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(email, password)
-        fetch('http://192.168.1.23:5000/loginDonor', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({email: email, password: password})})
+        fetch('https://food-overflow-be1.onrender.com/loginDonor', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({email: email, password: password})})
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
@@ -31,7 +31,7 @@ const LoginDonor = () => {
             <section className="wrapper">
                 <div className="heading">
                     <h1 className="text text-large">Donor Sign In</h1>
-                    <p className="text text-normal">New user? <span><a href="/DonorSignup" className="text text-links">Create an account</a></span>
+                    <p className="text text-normal">New user? <span><a href="/DonorSignup"  onClick={(e)=>{e.preventDefault(); navigate('/DonorSignup');}}className="text text-links">Create an account</a></span>
                     </p>
                 </div>
                 <form name="signin" className="form" onSubmit={handleSubmit}>
@@ -44,7 +44,7 @@ const LoginDonor = () => {
                         <input type="password" name="password" id="password" className="input-field" placeholder="Password"/>
                     </div>
                     <div className="input-control">
-                        <a href="/LoginNGO" className="text text-links">Login as NGO?</a>
+                        <a onClick={(e)=>{e.preventDefault(); navigate('/LoginNGO');}} className="text text-links" >Login as NGO?</a>
                         <button type="submit" className="input-submit">Sign In</button>
                     </div>
                 </form>

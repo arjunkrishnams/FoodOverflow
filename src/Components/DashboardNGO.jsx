@@ -166,7 +166,7 @@ const Dashboard = () => {
 
 const DeleteElement = (index,id) => {
     const newList = list.filter((item, i) => i !== index);
-    fetch(`http://192.168.1.23:5000/DeleteDonation/${id}`, {
+    fetch(`https://food-overflow-be1.onrender.com/DeleteDonation/${id}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json',
@@ -175,7 +175,7 @@ const DeleteElement = (index,id) => {
         .then((response) => response.json())
         .then((data) => {
             console.log(data);
-            fetch(`http://192.168.1.23:5000/DashboardNGO/${location.state.id}`, {
+            fetch(`https://food-overflow-be1.onrender.com/DashboardNGO/${location.state.id}`, {
               method: 'GET',
               headers: {
                 'Content-Type': 'application/json',
@@ -205,7 +205,7 @@ const DeleteElement = (index,id) => {
         };
  
 useEffect(() => {
-    fetch(`http://192.168.1.23:5000/DashboardNGO/${location.state.id}`, {
+    fetch(`https://food-overflow-be1.onrender.com/DashboardNGO/${location.state.id}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

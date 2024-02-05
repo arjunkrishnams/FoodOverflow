@@ -13,7 +13,7 @@ const LoginDonor = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(email, password)
-        fetch('http://192.168.1.23:5000/loginNGO', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({email: email, password: password})})
+        fetch('https://food-overflow-be1.onrender.com/loginNGO', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({email: email, password: password})})
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);

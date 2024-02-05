@@ -149,7 +149,7 @@ const Dashboard = () => {
   const [noOfPlatesDonated, setNoOfPlatesDonated] = useState(100);
   const [noOfDonations, setNoOfDonations] = useState(100);
 
-  fetch(`http://192.168.1.23:5000/DashboardDonor/${location.state.id}`, {
+  fetch(`https://food-overflow-be1.onrender.com/DashboardDonor/${location.state.id}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',

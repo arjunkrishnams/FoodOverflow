@@ -84,7 +84,7 @@ function NgoSignup() {
                 formDataObj[key] = value;
             });
             console.log(formDataObj);
-         fetch("http://192.168.1.23:5000/registerDonor", {
+         fetch("https://food-overflow-be1.onrender.com/registerDonor", {
              method: "POST",
              headers: {
                 "Content-Type": "application/json",

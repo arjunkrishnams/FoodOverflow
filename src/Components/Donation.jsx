@@ -117,7 +117,7 @@ const Donation = () => {
 
       console.log(donors);
 
-      fetch(`http://192.168.1.23:5000/addDonation/${location.state.id}`, {
+      fetch(`https://food-overflow-be1.onrender.com/addDonation/${location.state.id}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
